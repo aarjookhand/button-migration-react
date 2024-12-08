@@ -1,5 +1,6 @@
 import React from 'react';
 import MyButton from './components/MyButton';
+import ButtonModifier from './components/ButtonModifier';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay  } from '@fortawesome/free-solid-svg-icons';
 
@@ -28,9 +29,13 @@ const App = () => {
       <div className="text-center text-gray-600">
         <p className="text-sm">Click to explore Deezer.</p>
       </div>
+    </div>
+          {/* card for Button Modifier */}
+          <div className="max-w-2xl w-full bg-white rounded-lg shadow-lg p-6">
+        <h2 className="text-xl font-semibold text-center mb-6">See what the button looks like in UI</h2>
+        <ButtonModifier />  {/* ButtonModifier component to adjust button settings */}
       </div>
-      </div>
-
+    </div>
   );
 };
 
