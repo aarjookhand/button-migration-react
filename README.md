@@ -15,7 +15,7 @@ git clone https://github.com/aarjookhand/button-migration-react.git
 2. Install dependencies:
 
 ```bash
-cd button-migration-react
+
 cd frontend
 npm install
 ```
